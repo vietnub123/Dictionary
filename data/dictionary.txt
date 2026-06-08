@@ -1,0 +1,135 @@
+# File du lieu tu dien Anh-Viet
+# Moi tu mot block, bat dau @english va ket thuc @end
+
+@english=hello
+meaning=xin chào|chào hỏi
+example=Hello, how are you?|Say hello to your mom.
+synonym=hi|hey|greetings
+@end
+
+@english=book
+meaning=quyển sách|đặt trước|sổ sách
+example=I am reading an interesting book.|I want to book a table for two.
+synonym=volume|reserve
+@end
+
+@english=computer
+meaning=máy tính|máy vi tính
+example=My computer is broken.
+synonym=PC|laptop|machine
+@end
+
+@english=run
+meaning=chạy|điều hành|vận hành
+example=I run every morning.|She runs a small business.
+synonym=jog|operate|manage
+@end
+
+@english=beautiful
+meaning=đẹp|xinh đẹp|tuyệt đẹp
+example=She is a beautiful girl.|What a beautiful day!
+synonym=pretty|lovely|gorgeous|stunning
+@end
+
+@english=happy
+meaning=hạnh phúc|vui vẻ|sung sướng
+example=I am happy to see you.|Have a happy birthday!
+synonym=joyful|glad|cheerful|content
+@end
+
+@english=study
+meaning=học|nghiên cứu|sự nghiên cứu
+example=I study mathematics at university.|This is an interesting study.
+synonym=learn|research|examine
+@end
+
+@english=mathematics
+meaning=toán học
+example=Mathematics is my favorite subject.
+synonym=math|maths
+@end
+
+@english=algorithm
+meaning=thuật toán|giải thuật
+example=Sorting algorithms are very important.
+synonym=procedure|method
+@end
+
+@english=database
+meaning=cơ sở dữ liệu
+example=The database stores millions of records.
+synonym=data store|repository
+@end
+
+@english=program
+meaning=chương trình|lập trình
+example=I wrote a program in C++.|The TV program starts at 8pm.
+synonym=software|application|code
+@end
+
+@english=language
+meaning=ngôn ngữ|tiếng
+example=English is an international language.
+synonym=tongue|speech
+@end
+
+@english=student
+meaning=sinh viên|học sinh
+example=He is a good student.
+synonym=pupil|learner|scholar
+@end
+
+@english=teacher
+meaning=giáo viên|thầy giáo|cô giáo
+example=My teacher is very kind.
+synonym=instructor|educator|tutor
+@end
+
+@english=friend
+meaning=bạn|bạn bè
+example=She is my best friend.
+synonym=buddy|pal|companion
+@end
+
+@english=family
+meaning=gia đình
+example=I love my family very much.
+synonym=relatives|household
+@end
+
+@english=love
+meaning=yêu|tình yêu|yêu thương
+example=I love you.|Love is a beautiful feeling.
+synonym=adore|cherish|affection
+@end
+
+@english=water
+meaning=nước
+example=Please give me a glass of water.
+synonym=H2O|liquid
+@end
+
+@english=food
+meaning=thức ăn|đồ ăn|món ăn
+example=Vietnamese food is delicious.
+synonym=meal|cuisine|dish
+@end
+
+@english=time
+meaning=thời gian|lần|thời điểm
+example=What time is it?|I have visited Hanoi three times.
+synonym=moment|period|duration
+@end
+
+@english=learn
+meaning=học|học tập
+example=I learn English everyday.
+synonym=study|acquire
+@end
+
+@english=nigga
+meaning=Mọi da đen
+example=Nigga please!
+synonym=Monkey
+@end
+
