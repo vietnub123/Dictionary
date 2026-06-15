@@ -133,3 +133,8 @@ example=Nigga please!
 synonym=Monkey
 @end
 
+@english=English
+meaning=Tieng Anh
+example=My english is bad
+@end
+
