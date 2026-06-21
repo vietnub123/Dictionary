@@ -127,12 +127,6 @@ example=I learn English everyday.
 synonym=study|acquire
 @end
 
-@english=nigga
-meaning=Mọi da đen
-example=Nigga please!
-synonym=Monkey
-@end
-
 @english=English
 meaning=Tieng Anh
 example=My english is bad

@@ -2,7 +2,7 @@
 
 Đồ án môn Kỹ Thuật Lập Trình - Chủ đề 7.
 
-Phiên bản nâng cấp với kiến trúc hướng đối tượng đầy đủ: encapsulation, inheritance, polymorphism, kèm các mẫu thiết kế Strategy, Facade, và hệ thống Exception.
+Kiến trúc hướng đối tượng: encapsulation, inheritance, polymorphism, kèm các mẫu thiết kế Strategy, Facade, và hệ thống Exception.
 
 ## Cấu trúc OOP
 
