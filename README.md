@@ -1,6 +1,6 @@
 # Từ Điển Anh-Việt (Phiên bản OOP)
 
-Đồ án môn Kỹ Thuật Lập Trình - Chủ đề 7.
+Dự án môn Kỹ Thuật Lập Trình - Chủ đề 7.
 
 Kiến trúc hướng đối tượng: encapsulation, inheritance, polymorphism, kèm các mẫu thiết kế Strategy, Facade, và hệ thống Exception.
 
