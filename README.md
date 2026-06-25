@@ -1,4 +1,4 @@
-# Từ Điển Anh-Việt (Phiên bản OOP)
+# Từ Điển Anh-Việt (OOP)
 
 Dự án môn Kỹ Thuật Lập Trình - Chủ đề 7.
 
