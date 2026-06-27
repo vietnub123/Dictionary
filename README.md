@@ -75,6 +75,38 @@ Lưu ý: phải chạy từ thư mục gốc của project (chứa thư mục `d
 
 Trên Windows PowerShell, nếu tiếng Việt hiển thị sai, gõ `chcp 65001` trước khi chạy chương trình.
 
+
+## Kiểm thử
+
+Dự án sử dụng khung kiểm thử **Google Test (gTest)** để đảm bảo tính toàn vẹn của các cấu trúc dữ liệu và logic nghiệp vụ.
+
+### 1. Cấu trúc thư mục kiểm thử
+Các tệp kiểm thử được tổ chức theo module để đảm bảo tính phân tách trách nhiệm:
+
+```
+test/
+├── test_dictionary.cpp       # Kiểm thử CRUD và Persistence
+├── test_history.cpp          # Kiểm thử Linked List, MRU và Rule of Three
+├── test_search.cpp           # Kiểm thử Strategy Pattern
+└── test_exceptions.cpp       # Kiểm thử cơ chế quản lý ngoại lệ
+```
+### 2. Lệnh biên dịch đa module
+Để biên dịch toàn bộ các file trong thư mục test/ và liên kết với các file mã nguồn cốt lõi (src/), sử dụng lệnh sau tại thư mục gốc của dự án (sử dụng trình biên dịch G++ từ MSYS2/UCRT64):
+
+```Bash
+C:/msys64/ucrt64/bin/g++.exe -std=c++17 -I C:/msys64/ucrt64/include -L C:/msys64/ucrt64/lib -I src/core -I src/persistence -I src/search -I src/ui -I src/utils test/*.cpp src/core/Word.cpp src/persistence/Dictionary.cpp src/persistence/History.cpp src/persistence/Favorites.cpp src/search/ExactSearch.cpp src/search/ApproximateSearch.cpp src/ui/ConsoleUI.cpp src/utils/StringUtils.cpp -lgtest -lgtest_main -pthread -o run_tests.exe
+```
+
+### 3. Thực thi kiểm thử
+Sau khi quá trình biên dịch hoàn tất mà không phát sinh lỗi, tệp run_tests.exe sẽ được khởi tạo. Để chạy toàn bộ các kịch bản kiểm thử, thực thi lệnh:
+
+```Bash
+./run_tests.exe
+```
+Hệ thống sẽ xuất ra ma trận kết quả, hiển thị trạng thái [ PASSED ] cho các kiểm thử thành công hoặc [ FAILED ] kèm theo thông tin chi tiết nếu có sai lệch logic.
+
+
+
 ## Menu
 
 | Số | Chức năng |
